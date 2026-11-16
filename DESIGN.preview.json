@@ -1,0 +1,990 @@
+{
+  "version": 1,
+  "source_sha256": "5b583e7e4cbbef69192f7239cf0ac431270120791b166fc6fd9138c35fcc86bd",
+  "generated_at": "2026-11-16T19:55:43Z",
+  "screens": [
+    {
+      "name": "Chats",
+      "root": {
+        "type": "column",
+        "width": "fill",
+        "height": "fill",
+        "children": [
+          {
+            "type": "statusBar",
+            "color": "on-surface",
+            "background": "surface"
+          },
+          {
+            "type": "navBar",
+            "title": "Signal",
+            "height": 64,
+            "background": "surface",
+            "foreground": "on-surface",
+            "leading": [
+              {
+                "type": "box",
+                "width": 28,
+                "height": 28,
+                "radius": 9999,
+                "fill": "secondary-container",
+                "align": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A",
+                    "typeRole": "label-large",
+                    "color": "on-secondary-container",
+                    "align": "center"
+                  }
+                ]
+              }
+            ],
+            "trailing": [
+              {
+                "type": "icon",
+                "name": "material:search",
+                "size": 24,
+                "color": "on-surface"
+              },
+              {
+                "type": "icon",
+                "name": "material:more_vert",
+                "size": 24,
+                "color": "on-surface"
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "width": "fill",
+            "height": "fill",
+            "padding": {
+              "top": 4,
+              "right": 16,
+              "bottom": 8,
+              "left": 16
+            },
+            "gap": 4,
+            "children": [
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 84,
+                "align": "center",
+                "gap": 20,
+                "children": [
+                  {
+                    "type": "image",
+                    "width": 48,
+                    "height": 48,
+                    "radius": 9999
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "row",
+                        "width": "fill",
+                        "distribute": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Maya Chen",
+                            "typeRole": "body-large",
+                            "color": "on-surface",
+                            "maxLines": 1
+                          },
+                          {
+                            "type": "text",
+                            "text": "10:42 AM",
+                            "typeRole": "body-medium",
+                            "color": "on-surface-variant"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "row",
+                        "width": "fill",
+                        "align": "center",
+                        "distribute": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Are we still on for coffee tomorrow?",
+                            "typeRole": "body-medium",
+                            "color": "on-surface-variant",
+                            "maxLines": 2
+                          },
+                          {
+                            "type": "box",
+                            "radius": 9999,
+                            "fill": "primary",
+                            "padding": {
+                              "top": 2,
+                              "right": 7,
+                              "bottom": 2,
+                              "left": 7
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "text": "2",
+                                "typeRole": "label-medium",
+                                "color": "on-primary"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 84,
+                "align": "center",
+                "gap": 20,
+                "children": [
+                  {
+                    "type": "image",
+                    "width": 48,
+                    "height": 48,
+                    "radius": 9999
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "row",
+                        "width": "fill",
+                        "distribute": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Weekend Hike",
+                            "typeRole": "body-large",
+                            "color": "on-surface",
+                            "maxLines": 1
+                          },
+                          {
+                            "type": "text",
+                            "text": "Yesterday",
+                            "typeRole": "body-medium",
+                            "color": "on-surface-variant"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Jon: I’ll bring the trail map and snacks.",
+                        "typeRole": "body-medium",
+                        "color": "on-surface-variant",
+                        "maxLines": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 84,
+                "align": "center",
+                "gap": 20,
+                "children": [
+                  {
+                    "type": "image",
+                    "width": 48,
+                    "height": 48,
+                    "radius": 9999
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "row",
+                        "width": "fill",
+                        "distribute": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Dad",
+                            "typeRole": "body-large",
+                            "color": "on-surface",
+                            "maxLines": 1
+                          },
+                          {
+                            "type": "text",
+                            "text": "Mon",
+                            "typeRole": "body-medium",
+                            "color": "on-surface-variant"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "row",
+                        "width": "fill",
+                        "gap": 6,
+                        "align": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "name": "material:done_all",
+                            "size": 16,
+                            "color": "on-surface-variant"
+                          },
+                          {
+                            "type": "text",
+                            "text": "The photos came through perfectly.",
+                            "typeRole": "body-medium",
+                            "color": "on-surface-variant",
+                            "maxLines": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "size": 12
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "distribute": "end",
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 56,
+                    "height": 56,
+                    "radius": 9999,
+                    "fill": "primary-container",
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "name": "material:edit",
+                        "size": 24,
+                        "color": "on-primary-container"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tabBar",
+            "items": [
+              {
+                "icon": "material:chat_bubble",
+                "label": "Chats",
+                "selected": true
+              },
+              {
+                "icon": "material:call",
+                "label": "Calls",
+                "selected": false
+              },
+              {
+                "icon": "material:amp_stories",
+                "label": "Stories",
+                "selected": false
+              }
+            ],
+            "height": 80,
+            "background": "surface-2",
+            "selectedColor": "on-surface",
+            "unselectedColor": "on-surface-variant",
+            "indicator": {
+              "thickness": 3,
+              "radius": 9999,
+              "inset": 18
+            },
+            "style": "both"
+          },
+          {
+            "type": "gestureBar",
+            "color": "on-surface"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Calls",
+      "root": {
+        "type": "column",
+        "width": "fill",
+        "height": "fill",
+        "children": [
+          {
+            "type": "statusBar",
+            "color": "on-surface",
+            "background": "surface"
+          },
+          {
+            "type": "navBar",
+            "title": "Signal",
+            "height": 64,
+            "background": "surface",
+            "foreground": "on-surface",
+            "leading": [
+              {
+                "type": "box",
+                "width": 28,
+                "height": 28,
+                "radius": 9999,
+                "fill": "secondary-container",
+                "align": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A",
+                    "typeRole": "label-large",
+                    "color": "on-secondary-container",
+                    "align": "center"
+                  }
+                ]
+              }
+            ],
+            "trailing": [
+              {
+                "type": "icon",
+                "name": "material:search",
+                "size": 24,
+                "color": "on-surface"
+              },
+              {
+                "type": "icon",
+                "name": "material:more_vert",
+                "size": 24,
+                "color": "on-surface"
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "width": "fill",
+            "height": "fill",
+            "padding": {
+              "top": 8,
+              "right": 16,
+              "bottom": 8,
+              "left": 16
+            },
+            "gap": 4,
+            "children": [
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 72,
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 48,
+                    "height": 48,
+                    "radius": 9999,
+                    "fill": "primary-container",
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "name": "material:link",
+                        "size": 24,
+                        "color": "on-primary-container"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 2,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Create a call link",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Share a link for a Signal call",
+                        "typeRole": "body-medium",
+                        "color": "on-surface-variant"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "color": "outline",
+                "thickness": 1
+              },
+              {
+                "type": "text",
+                "text": "Recent",
+                "typeRole": "title-small",
+                "color": "on-surface",
+                "maxLines": 1
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 76,
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "image",
+                    "width": 48,
+                    "height": 48,
+                    "radius": 9999
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Maya Chen",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "row",
+                        "gap": 6,
+                        "align": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "name": "material:call_received",
+                            "size": 16,
+                            "color": "primary"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Incoming · Today, 9:18 AM",
+                            "typeRole": "body-medium",
+                            "color": "on-surface-variant"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "icon",
+                    "name": "material:videocam",
+                    "size": 24,
+                    "color": "primary"
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 76,
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "image",
+                    "width": 48,
+                    "height": 48,
+                    "radius": 9999
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Design Team",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "row",
+                        "gap": 6,
+                        "align": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "name": "material:call_missed",
+                            "size": 16,
+                            "color": "error"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Missed · Yesterday, 4:30 PM",
+                            "typeRole": "body-medium",
+                            "color": "error"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "icon",
+                    "name": "material:call",
+                    "size": 24,
+                    "color": "primary"
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 76,
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "image",
+                    "width": 48,
+                    "height": 48,
+                    "radius": 9999
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Dad",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Outgoing · Sunday, 7:05 PM",
+                        "typeRole": "body-medium",
+                        "color": "on-surface-variant"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "icon",
+                    "name": "material:call",
+                    "size": 24,
+                    "color": "primary"
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "distribute": "end",
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 56,
+                    "height": 56,
+                    "radius": 9999,
+                    "fill": "primary-container",
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "name": "material:add_call",
+                        "size": 24,
+                        "color": "on-primary-container"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tabBar",
+            "items": [
+              {
+                "icon": "material:chat_bubble",
+                "label": "Chats",
+                "selected": false
+              },
+              {
+                "icon": "material:call",
+                "label": "Calls",
+                "selected": true
+              },
+              {
+                "icon": "material:amp_stories",
+                "label": "Stories",
+                "selected": false
+              }
+            ],
+            "height": 80,
+            "background": "surface-2",
+            "selectedColor": "on-surface",
+            "unselectedColor": "on-surface-variant",
+            "indicator": {
+              "thickness": 3,
+              "radius": 9999,
+              "inset": 18
+            },
+            "style": "both"
+          },
+          {
+            "type": "gestureBar",
+            "color": "on-surface"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stories",
+      "root": {
+        "type": "column",
+        "width": "fill",
+        "height": "fill",
+        "children": [
+          {
+            "type": "statusBar",
+            "color": "on-surface",
+            "background": "surface"
+          },
+          {
+            "type": "navBar",
+            "title": "Signal",
+            "height": 64,
+            "background": "surface",
+            "foreground": "on-surface",
+            "leading": [
+              {
+                "type": "box",
+                "width": 28,
+                "height": 28,
+                "radius": 9999,
+                "fill": "secondary-container",
+                "align": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A",
+                    "typeRole": "label-large",
+                    "color": "on-secondary-container",
+                    "align": "center"
+                  }
+                ]
+              }
+            ],
+            "trailing": [
+              {
+                "type": "icon",
+                "name": "material:archive",
+                "size": 24,
+                "color": "on-surface"
+              },
+              {
+                "type": "icon",
+                "name": "material:search",
+                "size": 24,
+                "color": "on-surface"
+              },
+              {
+                "type": "icon",
+                "name": "material:more_vert",
+                "size": 24,
+                "color": "on-surface"
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "width": "fill",
+            "height": "fill",
+            "padding": {
+              "top": 12,
+              "right": 16,
+              "bottom": 8,
+              "left": 16
+            },
+            "gap": 12,
+            "children": [
+              {
+                "type": "row",
+                "width": "fill",
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 64,
+                    "height": 64,
+                    "radius": 9999,
+                    "fill": "surface-1",
+                    "border": {
+                      "color": "outline",
+                      "width": 1
+                    },
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "name": "material:add",
+                        "size": 24,
+                        "color": "primary"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "My Story",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Tap to add a story",
+                        "typeRole": "body-medium",
+                        "color": "on-surface-variant"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "color": "outline",
+                "thickness": 1
+              },
+              {
+                "type": "text",
+                "text": "Recent updates",
+                "typeRole": "title-small",
+                "color": "on-surface"
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 76,
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 64,
+                    "height": 64,
+                    "radius": 9999,
+                    "border": {
+                      "color": "primary",
+                      "width": 3
+                    },
+                    "padding": 3,
+                    "children": [
+                      {
+                        "type": "image",
+                        "width": 56,
+                        "height": 56,
+                        "radius": 9999
+                      }
+                    ]
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Maya Chen",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "text",
+                        "text": "12 minutes ago",
+                        "typeRole": "body-medium",
+                        "color": "on-surface-variant"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 76,
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 64,
+                    "height": 64,
+                    "radius": 9999,
+                    "border": {
+                      "color": "primary",
+                      "width": 3
+                    },
+                    "padding": 3,
+                    "children": [
+                      {
+                        "type": "image",
+                        "width": 56,
+                        "height": 56,
+                        "radius": 9999
+                      }
+                    ]
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Weekend Hike",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2 hours ago",
+                        "typeRole": "body-medium",
+                        "color": "on-surface-variant"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Viewed updates",
+                "typeRole": "title-small",
+                "color": "on-surface-variant"
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "height": 76,
+                "align": "center",
+                "gap": 16,
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 64,
+                    "height": 64,
+                    "radius": 9999,
+                    "border": {
+                      "color": "outline",
+                      "width": 2
+                    },
+                    "padding": 3,
+                    "children": [
+                      {
+                        "type": "image",
+                        "width": 56,
+                        "height": 56,
+                        "radius": 9999
+                      }
+                    ]
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Family",
+                        "typeRole": "body-large",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Yesterday",
+                        "typeRole": "body-medium",
+                        "color": "on-surface-variant"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "distribute": "end",
+                "children": [
+                  {
+                    "type": "box",
+                    "width": 56,
+                    "height": 56,
+                    "radius": 9999,
+                    "fill": "primary-container",
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "name": "material:photo_camera",
+                        "size": 24,
+                        "color": "on-primary-container"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tabBar",
+            "items": [
+              {
+                "icon": "material:chat_bubble",
+                "label": "Chats",
+                "selected": false
+              },
+              {
+                "icon": "material:call",
+                "label": "Calls",
+                "selected": false
+              },
+              {
+                "icon": "material:amp_stories",
+                "label": "Stories",
+                "selected": true
+              }
+            ],
+            "height": 80,
+            "background": "surface-2",
+            "selectedColor": "on-surface",
+            "unselectedColor": "on-surface-variant",
+            "indicator": {
+              "thickness": 3,
+              "radius": 9999,
+              "inset": 18
+            },
+            "style": "both"
+          },
+          {
+            "type": "gestureBar",
+            "color": "on-surface"
+          }
+        ]
+      }
+    }
+  ]
+}
